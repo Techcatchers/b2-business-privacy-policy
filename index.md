@@ -5,7 +5,7 @@ title: B2 Business privacy policy
 
 # B2 Business: Privacy Policy
 
-**Effective date:** 24 October 2026
+**Effective date:** 25 October 2026
 
 B2 Business ("the game", "we") is a trading card game for players aged **13 and over**. You can play it on one device, with friends on the same Wi-Fi network, or with friends online. This policy explains what information the game uses and where it goes.
 
@@ -68,12 +68,13 @@ The game doesn't use your camera, microphone, location, contacts, photos or phon
 The game is intended for players aged 13 and over. We don't knowingly collect personal information from anyone, including children: the game logs and analytics carry no nickname, account, contact detail or advertising identifier, only random identifiers.
 
 ## Game logs and analytics
-The Android app sends us information about how the game is played, so we can fix bugs and improve the game. It uses Google Firebase: **Cloud Firestore** for game records, **Crashlytics** for crash reports, **Google Analytics for Firebase** for app usage, and **Firebase Authentication**'s anonymous sign-in. There is no switch to turn this off: it's part of how the game is tested and improved. The web page a host's phone serves to friends on Wi-Fi sends nothing.
+The Android app sends us information about how the game is played, so we can fix bugs and improve the game. It uses Google Firebase: **Cloud Firestore** for game records, **Crashlytics** for crash reports, **Google Analytics for Firebase** for app usage, **Remote Config** for the update check, and **Firebase Authentication**'s anonymous sign-in. There is no switch to turn this off: it's part of how the game is tested and improved. The web page a host's phone serves to friends on Wi-Fi sends nothing.
 
 - **Game records, while you play:** each game you play (alone, hosted or joined) is recorded as it goes: its settings and every move, after each trade and when the app goes to the background, then the whole game when it ends or you leave it. **Every player's nickname is replaced by their seat number** ("Seat 1"). The record includes the app's technical log of your taps: what you tapped, whether it counted, and the seconds left on the timer.
 - **Crash reports:** when the app crashes, Crashlytics receives the error, where in the app it happened, your phone's model and operating-system version, the app version, and the ID of the game you were playing.
 - **App usage (Google Analytics):** when the app is opened, how long it's used, which screens are shown, when a game starts and ends (alone, hosted or joined, how many seats), your phone's model, operating system and app version, and your approximate country or region, which Google works out from your network address. **No advertising identifier is collected, and ad personalisation is off.** We don't use this for advertising.
 - **Identifiers:** a random installation ID the app makes on first use, an anonymous Firebase sign-in ID, and Firebase's app-instance ID. They let one phone's games and sessions be read together, so we can see how often the game is played, where players stop, and which features are used (Analytics' user ID is the installation ID). None is tied to your name, email, account or phone number.
+- **Update check:** the app asks Firebase Remote Config which version of the game is the oldest that may still be played, and where to get the new one. If yours is older, the app asks you to update it before you play again (a game you're playing finishes first). This request carries Firebase's installation ID and the app's version, and nothing about your games.
 - **A game's ID:** the app can copy a game's ID for you (its random installation ID and the game's number), from the game or History, so you can tell us which game to look at. It shows only once you copy it.
 - **What's never sent:** your nickname or other players' nicknames, avatars, email, contacts, precise location, advertising identifiers, join codes or other players' private details.
 - **Where it goes and who processes it:** Google, as the Firebase service provider, in the developer's Firebase project. Google's privacy policy covers its services. Data is encrypted in transit.
