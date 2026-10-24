@@ -13,6 +13,7 @@ B2 Business ("the game", "we") is a trading card game for players aged **13 and 
 - We **don't collect personal data**, and there are **no accounts of our own and no ads**. The Android app does send us a **record of every game as it's played, crash reports and app-usage statistics**, with **no names in them** (each player is named by their seat) and **no advertising identifier**, to fix bugs and improve the game (see "Game logs and analytics"). This version has **no in-app purchases**: you earn B2 Gems by playing. If a later version sells Gems through Google Play, this policy will say what that involves before it's released.
 - Everything the game stores stays **on your device**.
 - **Google Play Games (optional):** if you sign in to Play Games, your B2 Gems' history and the game records made under the same sign-in are kept with your Play Games account, so they stay yours on a new phone. We never receive your Play Games name, picture or email.
+- **Notifications** ("News from B2"): only if you allow them, news, new versions and an occasional nudge if you haven't played for a while, sent by the developer, never daily. Turn them off any time in Settings (see "Notifications").
 - Multiplayer games run **directly between devices on your own Wi-Fi network**, or, at an **online table**, through B2's relay on Cloudflare, which passes the game's messages between the players' phones and **keeps none of them**. We have no accounts and no servers that store your game data.
 - **Game logs and analytics:** game records, crashes, app usage and the history of your B2 Gems go to our **Google Firebase** project (Firestore, Crashlytics, Google Analytics), with nicknames replaced by seat numbers and no account, email or advertising identifier (see "Game logs and analytics").
 
@@ -61,9 +62,16 @@ This information isn't sent to us or to any third party, except the game logs an
 | Wi-Fi multicast | To find games hosted on your network |
 | Network state | To notice when your Wi-Fi drops or changes, so the game can reconnect |
 | Keep the device awake | To keep a hosted game running while you play, also with the screen off |
-| Run in the foreground (connected device) and show notifications | While you host a game, a notification ("Hosting your B2 table") keeps the game going for your friends with your screen off. You're asked once for notifications, and hosting works without them. |
+| Run in the foreground (connected device) and show notifications | While you host a game, a notification ("Hosting your B2 table") keeps the game going for your friends with your screen off. If you allow them, the same permission shows **News from B2** (see "Notifications"). You're asked once for notifications, and hosting works without them. |
 
 The game doesn't use your camera, microphone, location, contacts, photos or phone identifiers.
+
+## Notifications
+The Android app can show notifications called **News from B2**: news about the game, a new version to update to, and now and then a nudge if you haven't played for a while. The developer writes and sends each one from Google Firebase's console, at most about once a week; the app never sends daily reminders or counts days in a row.
+
+- **Off until you allow them.** The first time you open the app it asks once; Android then asks too. Settings → Sound → **News from B2** turns them on or off at any time; off, your phone is removed from the list they're sent to.
+- **What is used:** to deliver them, Google's **Firebase Cloud Messaging** gives your phone a registration (tied to Firebase's installation ID) while News from B2 is on. Google keeps it; we don't store it, and it isn't tied to your name or account.
+- **While you're playing,** a notification that arrives waits until you're back on the home screen, and one that's too long or uses words the game doesn't allow is not shown.
 
 ## Children
 The game is intended for players aged 13 and over. We don't knowingly collect personal information from anyone, including children: the game logs and analytics carry no nickname, account, contact detail or advertising identifier, only random identifiers.
