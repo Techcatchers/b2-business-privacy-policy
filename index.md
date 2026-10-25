@@ -11,10 +11,10 @@ B2 Business ("the game", "we") is a trading card game for players aged **13 and 
 
 ## The short version
 - We **don't collect personal data**, and there are **no accounts of our own and no ads**. The Android app does send us a **record of every game as it's played, crash reports and app-usage statistics**, with **no names in them** (each player is named by their seat) and **no advertising identifier**, to fix bugs and improve the game (see "Game logs and analytics"). This version has **no in-app purchases**: you earn B2 Gems by playing. If a later version sells Gems through Google Play, this policy will say what that involves before it's released.
-- Everything the game stores stays **on your device**.
-- **Google Play Games (optional):** if you sign in to Play Games, your B2 Gems' history and the game records made under the same sign-in are kept with your Play Games account, so they stay yours on a new phone. We never receive your Play Games name, picture or email.
+- Everything the game stores stays **on your device**, apart from your Play Games save if you sign in to Play Games (see "Saves in Google Play Games").
+- **Google Play Games (optional):** if you sign in to Play Games, your B2 Gems' history and the game records made under the same sign-in are kept with your Play Games account, and the app keeps **one save of your progress in your Google account**, so they stay yours on a new phone. We never receive your Play Games name, picture or email.
 - **Notifications** ("News from B2"): only if you allow them, news, new versions and an occasional nudge if you haven't played for a while, sent by the developer, never daily. Turn them off any time in Settings (see "Notifications").
-- Multiplayer games run **directly between devices on your own Wi-Fi network**, or, at an **online table**, through B2's relay on Cloudflare, which passes the game's messages between the players' phones and **keeps none of them**. We have no accounts and no servers that store your game data.
+- Multiplayer games run **directly between devices on your own Wi-Fi network**, or, at an **online table**, through B2's relay on Cloudflare, which passes the game's messages between the players' phones and **keeps none of them**. Neither way stores your games' messages; the game records we keep are the ones "Game logs and analytics" describes.
 - **Game logs and analytics:** game records, crashes, app usage and the history of your B2 Gems go to our **Google Firebase** project (Firestore, Crashlytics, Google Analytics), with nicknames replaced by seat numbers and no account, email or advertising identifier (see "Game logs and analytics").
 
 ## What the game stores on your device
@@ -28,11 +28,18 @@ B2 Business ("the game", "we") is a trading card game for players aged **13 and 
 | The kits you own and your three kit loadouts, kept in your wallet beside your B2 Gems | To keep what you've bought with Gems and set up for your next games | Clear the app's data or uninstall |
 | A report of the last crash: the game as it stood, the error, and the app's recent technical log | So you can send it to us if you choose; Home offers it once | Dismiss it when offered (it's deleted then), clear the app's data, or uninstall |
 
-This information isn't sent to us or to any third party, except the game logs and analytics described below, which carry no nickname.
+This information isn't sent to us or to any third party, except the game logs and analytics described below, which carry no nickname, and your Play Games save, which goes to your own Google account if you sign in to Play Games.
 
 **Backups.** In Settings → Your data you can make a backup: your nickname, avatar, trophies, your wallet (B2 Gems, the kits you own and your loadouts), your History and settings, as text you copy or share, to restore on a new install. It never holds the join codes or keys of games you joined, your hosts' addresses, or other players' names: History goes into it with other people's names left out. Anyone who has your backup can restore it, so keep it somewhere private. Restoring replaces what's on that device.
 
 **Game reports.** You can copy a game report, or share it as a text file through your phone's share sheet (a download in a browser), to send to whoever looks into a problem. It holds that game's moves and settings, the app's recent technical log and how smoothly the game drew. If you joined someone else's table, it holds only what your own seat saw. It never holds your network address, the join code or your seat's private key. The game never sends a report by itself: it goes only where you send it.
+
+## Saves in Google Play Games
+If you sign in to Google Play Games in the Android app, the app keeps **one save** of your progress in your Google account, through Play Games' saved games. Google stores it for you; it isn't in our Firebase project, and we don't receive a copy.
+
+- **What's in it:** what a backup holds (your nickname, avatar, trophies, the kits you own and your loadouts, your History with other people's names left out, and your settings), with a random ID for the phone that saved it and the time. **Your B2 Gems aren't in it:** your Gems' history keeps your balance, and a restore takes your Gems from there.
+- **When it's saved:** after each finished game and when you leave the app, if something changed. A phone saves only once it made the save or restored it. If your account holds a save another phone made, the app asks first: **Restore** or **Not now** on a new phone, or which of the two to keep on a phone with its own progress. Nothing is replaced without your choice.
+- **Deleting it:** in Google Play Games' settings, which can delete a game's data (B2 Business). Uninstalling the game doesn't delete it.
 
 ## Playing with friends on your Wi-Fi
 - When you **host** a game, your phone runs a small game server on your local network. Other players join from the app or by scanning a QR code in their web browser.
