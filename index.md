@@ -5,7 +5,7 @@ title: B2 Business privacy policy
 
 # B2 Business: Privacy Policy
 
-**Effective date:** 29 October 2026
+**Effective date:** 30 October 2026
 
 B2 Business ("the game", "we") is a trading card game for players aged **13 and over**. You can play it on one device, with friends on the same Wi-Fi network, or with friends online. This policy explains what information the game uses and where it goes.
 
@@ -22,7 +22,7 @@ B2 Business ("the game", "we") is a trading card game for players aged **13 and 
 | Data | Why | How to delete it |
 |---|---|---|
 | Your nickname (up to 12 characters) and avatar choice | To show you at the table | Change it in the app, or clear the app's data |
-| Settings (sound, music, vibration, reduced motion, which onboarding boxes you dismissed, and whether your Business Card shares your best net worth) | To remember your preferences | Change them in the app, clear the app's data or uninstall |
+| Settings (sound, music, vibration, reduced motion and which onboarding boxes you dismissed) | To remember your preferences | Change them in the app, clear the app's data or uninstall |
 | Saved games (on the device that hosts a game) | To resume a game after an interruption | Delete the saved game in the app, clear the app's data, or uninstall |
 | Your trophies, achievement progress and B2 Gems | To keep what you've earned across games | Clear the app's data or uninstall |
 | History: the results of your last 20 finished games (the final standings, awards and everyone's holdings), with the nicknames and avatars of the players at those tables | So you can look back at how your games went | Clear the app's data or uninstall; the oldest game goes as each new one is kept |
@@ -46,7 +46,7 @@ If you sign in to Google Play Games in the Android app, the app keeps **one save
 - When you **host** a game, your phone runs a small game server on your local network. Other players join from the app or by scanning a QR code in their web browser.
 - The devices exchange only what the game needs:
   - nicknames and avatar choices, and the frame and podium celebration you equipped in the Store;
-  - your Business Card's game highlights, such as games played, wins and trophies, which the others at your table can see. Your best net worth goes with them only if you turn its eye on. Other players' phones show these during the game and don't keep them;
+  - your Business Card's game highlights, such as games played, wins and trophies, which the others at your table can see, with your best net worth, the highest you have finished a game with. Other players' phones show these during the game and don't keep them;
   - the moves you make;
   - the information the game rules make public, such as stakes and Boosters.
 - Private game details, such as another player's cash and net worth, are not shown to others unless that player chooses to reveal them.
