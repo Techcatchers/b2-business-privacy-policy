@@ -5,7 +5,7 @@ title: B2 Business privacy policy
 
 # B2 Business: Privacy Policy
 
-**Effective date:** 25 October 2026
+**Effective date:** 29 October 2026
 
 B2 Business ("the game", "we") is a trading card game for players aged **13 and over**. You can play it on one device, with friends on the same Wi-Fi network, or with friends online. This policy explains what information the game uses and where it goes.
 
@@ -16,6 +16,7 @@ B2 Business ("the game", "we") is a trading card game for players aged **13 and 
 - **Notifications** ("News from B2"): only if you allow them, news, new versions and an occasional nudge if you haven't played for a while, sent by the developer, never daily. Turn them off any time in Settings (see "Notifications").
 - Multiplayer games run **directly between devices on your own Wi-Fi network**, or, at an **online table**, through B2's relay on Cloudflare, which passes the game's messages between the players' phones and **keeps none of them**. Neither way stores your games' messages; the game records we keep are the ones "Game logs and analytics" describes.
 - **Game logs and analytics:** game records, crashes, app usage and the history of your B2 Gems go to our **Google Firebase** project (Firestore, Crashlytics, Google Analytics), with nicknames replaced by seat numbers and no account, email or advertising identifier (see "Game logs and analytics").
+- **Reporting a problem (optional):** if you report a problem or an idea from the app, the words you write go to us with the app's version, your phone's model and Android version and, if you leave it on, the game's ID; nothing goes until you press Send (see "Reporting a problem").
 
 ## What the game stores on your device
 | Data | Why | How to delete it |
@@ -80,8 +81,18 @@ The Android app can show notifications called **News from B2**: news about the g
 - **What is used:** to deliver them, Google's **Firebase Cloud Messaging** gives your phone a registration (tied to Firebase's installation ID) while News from B2 is on. Google keeps it; we don't store it, and it isn't tied to your name or account.
 - **While you're playing,** a notification that arrives waits until you're back on the home screen, and one that's too long or uses words the game doesn't allow is not shown.
 
+## Reporting a problem
+In the Android app you can tell us about a problem or an idea: **Report a problem** is on the home screen, in Settings → About, in a game's menu, on the podium at a game's end and beside each game on History, and after a crash.
+
+- **What's sent, only when you press Send:** what kind it is (something broken, a rule that looks wrong, or an idea), the words you write (up to 500 characters), where in the app you wrote it, and, if you leave its switch on, the ID of the game it's about. With them go the app's version and the game rules' and network protocol's versions, your phone's maker and model and its Android version, the random installation ID and the anonymous sign-in ID (the same ones the game logs use), and the time it arrived.
+- **Please don't write your name, phone number, email or anything else about yourself.** We don't ask for a way to reply. After you send a report, the app shows you its short code, which you can quote if you write to us.
+- **Why:** to find and fix what went wrong, and to hear your ideas. The installation ID lets us read that phone's crash reports, and the game's ID that game's record (see "Game logs and analytics").
+- **Where it goes:** our Cloud Firestore project in Google Firebase, like the game logs. With no internet, it waits on your phone and goes once you're online. A phone sends at most five a day.
+- **How long:** up to 24 months, then deleted. To have a report deleted sooner, write to us with its code.
+- A browser that joins a Wi-Fi table has no Report a problem and sends nothing.
+
 ## Children
-The game is intended for players aged 13 and over. We don't knowingly collect personal information from anyone, including children: the game logs and analytics carry no nickname, account, contact detail or advertising identifier, only random identifiers.
+The game is intended for players aged 13 and over. We don't knowingly collect personal information from anyone, including children: the game logs and analytics carry no nickname, account, contact detail or advertising identifier, only random identifiers. A problem report holds only the words its player writes, and the app asks them to leave out anything about themselves.
 
 ## Game logs and analytics
 The Android app sends us information about how the game is played, so we can fix bugs and improve the game. It uses Google Firebase: **Cloud Firestore** for game records, **Crashlytics** for crash reports, **Google Analytics for Firebase** for app usage, **Remote Config** for the update check, and **Firebase Authentication**'s anonymous sign-in. There is no switch to turn this off: it's part of how the game is tested and improved. The web page a host's phone serves to friends on Wi-Fi sends nothing.
@@ -90,9 +101,9 @@ The Android app sends us information about how the game is played, so we can fix
 - **Crash reports:** when the app crashes, Crashlytics receives the error, where in the app it happened, your phone's model and operating-system version, the app version, and the ID of the game you were playing.
 - **App usage (Google Analytics):** when the app is opened, how long it's used, which screens are shown, when a game starts and ends (alone, hosted or joined, how many seats), your phone's model, operating system and app version, and your approximate country or region, which Google works out from your network address. **No advertising identifier is collected, and ad personalisation is off.** We don't use this for advertising.
 - **Identifiers:** a random installation ID the app makes on first use, an anonymous Firebase sign-in ID, and Firebase's app-instance ID. They let one phone's games and sessions be read together, so we can see how often the game is played, where players stop, and which features are used (Analytics' user ID is the installation ID). None is tied to your name, email, account or phone number. If you sign in to Google Play Games, Firebase links its sign-in ID to your Play Games account (by an ID Google gives B2 for you): the Gems history and game records under it are then kept with that account, still with no name, picture or email.
-- **Your B2 Gems' history:** your Gems stay on your device, and the app also records your balance and each change to it in Firestore, so a question about your Gems can be looked up: the Gems a game earned (naming the game by its number), a kit you bought (naming it), the balance after each, a backup you restored, the Gems you held when the history began, the app's version, the random installation ID and the time, under your Firebase sign-in ID (linked to your Play Games account if you sign in to it). The record never changes the Gems on your device.
+- **Your B2 Gems' history:** your Gems stay on your device, and the app also records your balance and each change to it in Firestore, so a question about your Gems can be looked up: the Gems a game earned (naming the game by its number), a How to play lesson's Gem (naming the lesson), a kit you bought (naming it), the balance after each, a backup you restored, the Gems you held when the history began, the app's version, the random installation ID and the time, under your Firebase sign-in ID (linked to your Play Games account if you sign in to it). The record never changes the Gems on your device.
 - **Update check:** the app asks Firebase Remote Config which version of the game is the oldest that may still be played, and where to get the new one. If yours is older, the app asks you to update it before you play again (a game you're playing finishes first). This request carries Firebase's installation ID and the app's version, and nothing about your games.
-- **A game's ID:** the app can copy a game's ID for you (its random installation ID and the game's number), from the game or History, so you can tell us which game to look at. It shows only once you copy it.
+- **A game's ID:** the app can copy a game's ID for you (its random installation ID and the game's number), from a problem report, so you can tell us which game to look at; a problem report also sends it for you. It shows only once you copy it.
 - **What's never sent:** your nickname or other players' nicknames, avatars, email, contacts, precise location, advertising identifiers, join codes or other players' private details.
 - **Where it goes and who processes it:** Google, as the Firebase service provider, in the developer's Firebase project. Google's privacy policy covers its services. Data is encrypted in transit.
 - **How long:** game records for up to 24 months, crash reports for 90 days (Crashlytics' own limit), and Analytics' detailed data for 14 months, then deleted; your Gems' history for as long as the game is offered, so a later question can still be checked.
