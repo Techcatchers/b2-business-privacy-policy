@@ -5,7 +5,7 @@ title: B2 Business privacy policy
 
 # B2 Business: Privacy Policy
 
-**Effective date:** 30 October 2026
+**Effective date:** 1 November 2026
 
 B2 Business ("the game", "we") is a trading card game for players aged **13 and over**. You can play it on one device, with friends on the same Wi-Fi network, or with friends online. This policy explains what information the game uses and where it goes.
 
@@ -45,7 +45,7 @@ If you sign in to Google Play Games in the Android app, the app keeps **one save
 ## Playing with friends on your Wi-Fi
 - When you **host** a game, your phone runs a small game server on your local network. Other players join from the app or by scanning a QR code in their web browser.
 - The devices exchange only what the game needs:
-  - nicknames and avatar choices, and the frame and podium celebration you equipped in the Store;
+  - nicknames and avatar choices, and the frame, name stamp, podium celebration and Business Card you equipped in the Store;
   - your Business Card's game highlights, such as games played, wins and trophies, which the others at your table can see, with your best net worth, the highest you have finished a game with. Other players' phones show these during the game and don't keep them;
   - the moves you make;
   - the information the game rules make public, such as stakes and Boosters.
