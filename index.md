@@ -5,7 +5,7 @@ title: B2 Business privacy policy
 
 # B2 Business: Privacy Policy
 
-**Effective date:** 1 November 2026
+**Effective date:** 3 November 2026
 
 B2 Business ("the game", "we") is a trading card game for players aged **13 and over**. You can play it on one device, with friends on the same Wi-Fi network, or with friends online. This policy explains what information the game uses and where it goes.
 
@@ -47,6 +47,7 @@ If you sign in to Google Play Games in the Android app, the app keeps **one save
 - The devices exchange only what the game needs:
   - nicknames and avatar choices, and the frame, name stamp, podium celebration and Business Card you equipped in the Store;
   - your Business Card's game highlights, such as games played, wins and trophies, which the others at your table can see, with your best net worth, the highest you have finished a game with. Other players' phones show these during the game and don't keep them;
+  - a random player ID your phone makes for itself, not linked to you or any account, which other phones at your table keep only to count how many different friends their player has played with;
   - the moves you make;
   - the information the game rules make public, such as stakes and Boosters.
 - Private game details, such as another player's cash and net worth, are not shown to others unless that player chooses to reveal them.
@@ -57,7 +58,7 @@ If you sign in to Google Play Games in the Android app, the app keeps **one save
 
 ## Playing with friends online
 - When you **invite friends online**, your phone still runs the game. It connects to **B2's relay**, a small service on Cloudflare's network, which passes messages between your phone and each friend's phone over an **encrypted connection**.
-- The relay passes the same game information as a Wi-Fi table: nicknames and avatars, Business Card highlights, the moves you make, and what the rules make public. Private details, such as another player's cash and net worth, are never sent to anyone else.
+- The relay passes the same game information as a Wi-Fi table: nicknames and avatars, Business Card highlights, the random player ID, the moves you make, and what the rules make public. Private details, such as another player's cash and net worth, are never sent to anyone else.
 - **The relay keeps no messages.** While a table exists it keeps only the table's code and a key that lets the host's phone back in, and it forgets a table 24 hours after its host leaves.
 - Like any internet service, Cloudflare handles your device's network address to deliver the messages. The relay doesn't record it, and **players never see each other's addresses**. Cloudflare's own privacy policy covers its network.
 - Anyone with your table's **invite link** joins at once, and anyone who types its **6-character code** waits for you to let them in. Share them only with friends.
