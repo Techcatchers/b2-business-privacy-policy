@@ -5,7 +5,7 @@ title: B2 Business privacy policy
 
 # B2 Business: Privacy Policy
 
-**Effective date:** 3 November 2026
+**Effective date:** 6 November 2026
 
 B2 Business ("the game", "we") is a trading card game for players aged **13 and over**. You can play it on one device, with friends on the same Wi-Fi network, or with friends online. This policy explains what information the game uses and where it goes.
 
@@ -34,6 +34,8 @@ This information isn't sent to us or to any third party, except the game logs an
 **Backups.** In Settings → Your data you can make a backup: your nickname, avatar, trophies, your wallet (B2 Gems, the kits you own and your loadouts), your History and settings, as text you copy or share, to restore on a new install. It never holds the join codes or keys of games you joined, your hosts' addresses, or other players' names: History goes into it with other people's names left out. Anyone who has your backup can restore it, so keep it somewhere private. Restoring replaces what's on that device.
 
 **Game reports.** You can copy a game report, or share it as a text file through your phone's share sheet (a download in a browser), to send to whoever looks into a problem. It holds that game's moves and settings, the app's recent technical log and how smoothly the game drew. If you joined someone else's table, it holds only what your own seat saw. It never holds your network address, the join code or your seat's private key. The game never sends a report by itself: it goes only where you send it.
+
+**Podium pictures.** You can share a picture of a game's podium through your phone's share sheet. It shows your Business Card's name, the other players' faces (a bot as "Bot", a friend without their name), their places and net worths, and which game it was and when. The game makes it on your phone and hands it only to the app you pick; it never sends it anywhere itself.
 
 ## Saves in Google Play Games
 If you sign in to Google Play Games in the Android app, the app keeps **one save** of your progress in your Google account, through Play Games' saved games. Google stores it for you; it isn't in our Firebase project, and we don't receive a copy.
