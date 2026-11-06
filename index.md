@@ -35,7 +35,7 @@ This information isn't sent to us or to any third party, except the game logs an
 
 **Game reports.** You can copy a game report, or share it as a text file through your phone's share sheet (a download in a browser), to send to whoever looks into a problem. It holds that game's moves and settings, the app's recent technical log and how smoothly the game drew. If you joined someone else's table, it holds only what your own seat saw. It never holds your network address, the join code or your seat's private key. The game never sends a report by itself: it goes only where you send it.
 
-**Podium pictures.** You can share a picture of a game's podium through your phone's share sheet. It shows your Business Card's name, the other players' faces (a bot as "Bot", a friend without their name), their places and net worths, and which game it was and when. The game makes it on your phone and hands it only to the app you pick; it never sends it anywhere itself.
+**Podium pictures.** You can share a picture of a game's podium through your phone's share sheet. It shows your Business Card's name, the other players' faces (a bot as "Bot", a friend without their name), their places and net worths, everyone's net worth through the game as lines, and which game it was and when. The game makes it on your phone and hands it only to the app you pick; it never sends it anywhere itself.
 
 ## Saves in Google Play Games
 If you sign in to Google Play Games in the Android app, the app keeps **one save** of your progress in your Google account, through Play Games' saved games. Google stores it for you; it isn't in our Firebase project, and we don't receive a copy.
