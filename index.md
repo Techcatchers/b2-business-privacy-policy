@@ -5,7 +5,7 @@ title: B2 Business privacy policy
 
 # B2 Business: Privacy Policy
 
-**Effective date:** 6 November 2026
+**Effective date:** 7 November 2026
 
 B2 Business ("the game", "we") is a trading card game for players aged **13 and over**. You can play it on one device, with friends on the same Wi-Fi network, or with friends online. This policy explains what information the game uses and where it goes.
 
@@ -14,7 +14,7 @@ B2 Business ("the game", "we") is a trading card game for players aged **13 and 
 - Everything the game stores stays **on your device**, apart from your Play Games save if you sign in to Play Games (see "Saves in Google Play Games").
 - **Google Play Games (optional):** if you sign in to Play Games, your B2 Gems' history and the game records made under the same sign-in are kept with your Play Games account, and the app keeps **one save of your progress in your Google account**, so they stay yours on a new phone. We never receive your Play Games name, picture or email.
 - **Notifications** ("News from B2"): only if you allow them, news, new versions and an occasional nudge if you haven't played for a while, sent by the developer, never daily. Turn them off any time in Settings (see "Notifications").
-- Multiplayer games run **directly between devices on your own Wi-Fi network**, or, at an **online table**, through B2's relay on Cloudflare, which passes the game's messages between the players' phones and **keeps none of them**. Neither way stores your games' messages; the game records we keep are the ones "Game logs and analytics" describes.
+- Multiplayer games run **directly between devices on your own Wi-Fi network**, or, at an **online table**, through B2's relay on Cloudflare, which passes the game's messages between the players' phones and **keeps none of them**. Neither way stores your games' messages; a paused table's results are kept for its players (see "Tables that run out"); the game records we keep are the ones "Game logs and analytics" describes.
 - **Game logs and analytics:** game records, crashes, app usage and the history of your B2 Gems go to our **Google Firebase** project (Firestore, Crashlytics, Google Analytics), with nicknames replaced by seat numbers and no account, email or advertising identifier (see "Game logs and analytics").
 - **Reporting a problem (optional):** if you report a problem or an idea from the app, the words you write go to us with the app's version, your phone's model and Android version and, if you leave it on, the game's ID; nothing goes until you press Send (see "Reporting a problem").
 
@@ -53,7 +53,7 @@ If you sign in to Google Play Games in the Android app, the app keeps **one save
   - the moves you make;
   - the information the game rules make public, such as stakes and Boosters.
 - Private game details, such as another player's cash and net worth, are not shown to others unless that player chooses to reveal them.
-- **On a Wi-Fi table, everything stays on your local network.** Nothing goes over the internet to us.
+- **On a Wi-Fi table, the game itself stays on your local network.** Only one thing goes over the internet to us: when a table pauses, the host's phone keeps each player's results of the game, so they can see its podium if the table runs out (see "Tables that run out").
 - The 4-digit join code and QR code only let people on the same network join your table.
 - Local network play uses an unencrypted connection on your own network. **Play on networks you trust**, such as your home Wi-Fi or your phone's hotspot, not open public Wi-Fi.
 - If a friend joins with a web browser, the page is served by the host phone itself. It doesn't load anything from the internet.
@@ -65,6 +65,13 @@ If you sign in to Google Play Games in the Android app, the app keeps **one save
 - Like any internet service, Cloudflare handles your device's network address to deliver the messages. The relay doesn't record it, and **players never see each other's addresses**. Cloudflare's own privacy policy covers its network.
 - Anyone with your table's **invite link** joins at once, and anyone who types its **6-character code** waits for you to let them in. Share them only with friends.
 - Online tables are played in the app only, and are optional: Wi-Fi play works without the internet.
+
+## Tables that run out
+- A paused table you **host** or **joined** ends **a week after it was last played**, right where it stopped. It then shows in History as an unfinished game, with its podium.
+- So that everyone at the table can see that podium, the **host's phone** keeps, each time the table pauses, **each other player's results of the game** in our **Google Firebase** project (Firestore): the nicknames and avatars at the table, everyone's places, net worth, cash and holdings as the game ended, and that player's own game statistics.
+- Each player's results are stored under a code made from the table and that player's seat key, which only their phone and the host's hold, so **only that player's phone can find them**, and only **after the table runs out** (or at once, if the game was finished). Nobody can list or browse them.
+- They're **kept until we delete them**: for now nothing deletes them automatically. They carry no account, email, advertising identifier or network address.
+- Only the Android app keeps them, where game logs go (see "Game logs and analytics"); a web browser at a table keeps none.
 
 ## Permissions the Android app uses
 | Permission | Why |
