@@ -1,20 +1,20 @@
 ---
 layout: default
-title: B2 Business privacy policy
+title: Vaultie Trades privacy policy
 ---
 
-# B2 Business: Privacy Policy
+# Vaultie Trades: Privacy Policy
 
 **Effective date:** 8 November 2026
 
-B2 Business ("the game", "we") is a trading card game for players aged **13 and over**. You can play it on one device, with friends on the same Wi-Fi network, or with friends online. This policy explains what information the game uses and where it goes.
+Vaultie Trades ("the game", "we") is a trading card game for players aged **13 and over**. You can play it on one device, with friends on the same Wi-Fi network, or with friends online. This policy explains what information the game uses and where it goes.
 
 ## The short version
 - We **don't collect personal data**, and there are **no accounts of our own and no ads**. The Android app does send us a **record of every game as it's played, crash reports and app-usage statistics**, with **no names in them** (each player is named by their seat) and **no advertising identifier**, to fix bugs and improve the game (see "Game logs and analytics"). You earn B2 Gems by playing, and you can also **buy them through Google Play**, which takes the payment: we never see your card, UPI or bank details (see "Buying B2 Gems").
 - Everything the game stores stays **on your device**, apart from your Play Games save if you sign in to Play Games (see "Saves in Google Play Games").
 - **Google Play Games (optional):** if you sign in to Play Games, your B2 Gems' history and the game records made under the same sign-in are kept with your Play Games account, and the app keeps **one save of your progress in your Google account**, so they stay yours on a new phone. We never receive your Play Games name, picture or email.
-- **Notifications** ("News from B2"): only if you allow them, news, new versions and an occasional nudge if you haven't played for a while, sent by the developer, never daily. Turn them off any time in Settings (see "Notifications").
-- Multiplayer games run **directly between devices on your own Wi-Fi network**, or, at an **online table**, through B2's relay on Cloudflare, which passes the game's messages between the players' phones and **keeps none of them**. Neither way stores your games' messages; a paused table's results are kept for its players (see "Tables that run out"); the game records we keep are the ones "Game logs and analytics" describes.
+- **Notifications** ("News from Vaultie Trades"): only if you allow them, news, new versions and an occasional nudge if you haven't played for a while, sent by the developer, never daily. Turn them off any time in Settings (see "Notifications").
+- Multiplayer games run **directly between devices on your own Wi-Fi network**, or, at an **online table**, through Vaultie Trades' relay on Cloudflare, which passes the game's messages between the players' phones and **keeps none of them**. Neither way stores your games' messages; a paused table's results are kept for its players (see "Tables that run out"); the game records we keep are the ones "Game logs and analytics" describes.
 - **Game logs and analytics:** game records, crashes, app usage and the history of your B2 Gems go to our **Google Firebase** project (Firestore, Crashlytics, Google Analytics), with nicknames replaced by seat numbers and no account, email or advertising identifier (see "Game logs and analytics").
 - **Reporting a problem (optional):** if you report a problem or an idea from the app, the words you write go to us with the app's version, your phone's model and Android version and, if you leave it on, the game's ID; nothing goes until you press Send (see "Reporting a problem").
 
@@ -42,7 +42,7 @@ If you sign in to Google Play Games in the Android app, the app keeps **one save
 
 - **What's in it:** what a backup holds (your nickname, avatar, trophies, the kits you own and your loadouts, your History with other people's names left out, and your settings), with a random ID for the phone that saved it and the time. **Your B2 Gems aren't in it:** your Gems' history keeps your balance, and a restore takes your Gems from there.
 - **When it's saved:** after each finished game and when you leave the app, if something changed. A phone saves only once it made the save or restored it. If your account holds a save another phone made, the app asks first: **Restore** or **Not now** on a new phone, or which of the two to keep on a phone with its own progress. Nothing is replaced without your choice.
-- **Deleting it:** in Google Play Games' settings, which can delete a game's data (B2 Business). Uninstalling the game doesn't delete it.
+- **Deleting it:** in Google Play Games' settings, which can delete a game's data (Vaultie Trades). Uninstalling the game doesn't delete it.
 
 ## Playing with friends on your Wi-Fi
 - When you **host** a game, your phone runs a small game server on your local network. Other players join from the app or by scanning a QR code in their web browser.
@@ -59,7 +59,7 @@ If you sign in to Google Play Games in the Android app, the app keeps **one save
 - If a friend joins with a web browser, the page is served by the host phone itself. It doesn't load anything from the internet.
 
 ## Playing with friends online
-- When you **invite friends online**, your phone still runs the game. It connects to **B2's relay**, a small service on Cloudflare's network, which passes messages between your phone and each friend's phone over an **encrypted connection**.
+- When you **invite friends online**, your phone still runs the game. It connects to **Vaultie Trades' relay**, a small service on Cloudflare's network, which passes messages between your phone and each friend's phone over an **encrypted connection**.
 - The relay passes the same game information as a Wi-Fi table: nicknames and avatars, Business Card highlights, the random player ID, the moves you make, and what the rules make public. Private details, such as another player's cash and net worth, are never sent to anyone else.
 - **The relay keeps no messages.** While a table exists it keeps only the table's code and a key that lets the host's phone back in, and it forgets a table 24 hours after its host leaves.
 - Like any internet service, Cloudflare handles your device's network address to deliver the messages. The relay doesn't record it, and **players never see each other's addresses**. Cloudflare's own privacy policy covers its network.
@@ -76,19 +76,19 @@ If you sign in to Google Play Games in the Android app, the app keeps **one save
 ## Permissions the Android app uses
 | Permission | Why |
 |---|---|
-| Network access (Internet) | Needed to host or join games on your local Wi-Fi, for online tables through B2's relay, and to send the game logs and analytics (see "Game logs and analytics"). Not used for anything else. |
+| Network access (Internet) | Needed to host or join games on your local Wi-Fi, for online tables through Vaultie Trades' relay, and to send the game logs and analytics (see "Game logs and analytics"). Not used for anything else. |
 | Wi-Fi multicast | To find games hosted on your network |
 | Network state | To notice when your Wi-Fi drops or changes, so the game can reconnect |
 | Keep the device awake | To keep a hosted game running while you play, also with the screen off |
-| Run in the foreground (connected device) and show notifications | While you host a game, a notification ("Hosting your B2 table") keeps the game going for your friends with your screen off. If you allow them, the same permission shows **News from B2** (see "Notifications"). You're asked once for notifications, and hosting works without them. |
+| Run in the foreground (connected device) and show notifications | While you host a game, a notification ("Hosting your Vaultie Trades table") keeps the game going for your friends with your screen off. If you allow them, the same permission shows **News from Vaultie Trades** (see "Notifications"). You're asked once for notifications, and hosting works without them. |
 
 The game doesn't use your camera, microphone, location, contacts, photos or phone identifiers.
 
 ## Notifications
-The Android app can show notifications called **News from B2**: news about the game, a new version to update to, and now and then a nudge if you haven't played for a while. The developer writes and sends each one from Google Firebase's console, at most about once a week; the app never sends daily reminders or counts days in a row.
+The Android app can show notifications called **News from Vaultie Trades**: news about the game, a new version to update to, and now and then a nudge if you haven't played for a while. The developer writes and sends each one from Google Firebase's console, at most about once a week; the app never sends daily reminders or counts days in a row.
 
-- **Off until you allow them.** The first time you open the app it asks once; Android then asks too. Settings → Sound → **News from B2** turns them on or off at any time; off, your phone is removed from the list they're sent to.
-- **What is used:** to deliver them, Google's **Firebase Cloud Messaging** gives your phone a registration (tied to Firebase's installation ID) while News from B2 is on. Google keeps it; we don't store it, and it isn't tied to your name or account.
+- **Off until you allow them.** The first time you open the app it asks once; Android then asks too. Settings → Sound → **News from Vaultie Trades** turns them on or off at any time; off, your phone is removed from the list they're sent to.
+- **What is used:** to deliver them, Google's **Firebase Cloud Messaging** gives your phone a registration (tied to Firebase's installation ID) while News from Vaultie Trades is on. Google keeps it; we don't store it, and it isn't tied to your name or account.
 - **While you're playing,** a notification that arrives waits until you're back on the home screen, and one that's too long or uses words the game doesn't allow is not shown.
 
 ## Reporting a problem
@@ -110,7 +110,7 @@ The Android app sends us information about how the game is played, so we can fix
 - **Game records, while you play:** each game you play (alone, hosted or joined) is recorded as it goes: its settings and every move, after each trade and when the app goes to the background, then the whole game when it ends or you leave it. **Every player's nickname is replaced by their seat number** ("Seat 1"). The record includes the app's technical log of your taps: what you tapped, whether it counted, and the seconds left on the timer.
 - **Crash reports:** when the app crashes, Crashlytics receives the error, where in the app it happened, your phone's model and operating-system version, the app version, and the ID of the game you were playing.
 - **App usage (Google Analytics):** when the app is opened, how long it's used, which screens are shown, when a game starts and ends (alone, hosted or joined, how many seats), your phone's model, operating system and app version, and your approximate country or region, which Google works out from your network address. **No advertising identifier is collected, and ad personalisation is off.** We don't use this for advertising.
-- **Identifiers:** a random installation ID the app makes on first use, an anonymous Firebase sign-in ID, and Firebase's app-instance ID. They let one phone's games and sessions be read together, so we can see how often the game is played, where players stop, and which features are used (Analytics' user ID is the installation ID). None is tied to your name, email, account or phone number. If you sign in to Google Play Games, Firebase links its sign-in ID to your Play Games account (by an ID Google gives B2 for you): the Gems history and game records under it are then kept with that account, still with no name, picture or email.
+- **Identifiers:** a random installation ID the app makes on first use, an anonymous Firebase sign-in ID, and Firebase's app-instance ID. They let one phone's games and sessions be read together, so we can see how often the game is played, where players stop, and which features are used (Analytics' user ID is the installation ID). None is tied to your name, email, account or phone number. If you sign in to Google Play Games, Firebase links its sign-in ID to your Play Games account (by an ID Google gives Vaultie Trades for you): the Gems history and game records under it are then kept with that account, still with no name, picture or email.
 - **Your B2 Gems' history:** your Gems stay on your device, and the app also records your balance and each change to it in Firestore, so a question about your Gems can be looked up: the Gems a game earned (naming the game by its number), a How to play lesson's Gem (naming the lesson), a kit or a cosmetic you bought (naming it), a pack of Gems you bought through Google Play and a refund of one (naming the purchase by a one-way code), the balance after each, a backup you restored, the Gems you held when the history began, the app's version, the random installation ID and the time, under your Firebase sign-in ID (linked to your Play Games account if you sign in to it). The record never changes the Gems on your device.
 - **Update check:** the app asks Firebase Remote Config which version of the game is the oldest that may still be played, and where to get the new one. If yours is older, the app asks you to update it before you play again (a game you're playing finishes first). This request carries Firebase's installation ID and the app's version, and nothing about your games.
 - **A game's ID:** the app can copy a game's ID for you (the game's number, the same on every phone at its table, then your phone's random installation ID), from a problem report, so you can tell us which game to look at; a problem report also sends it for you. It shows only once you copy it. Each phone's record of a game is named by it.
@@ -124,7 +124,7 @@ The Android app sends us information about how the game is played, so we can fix
 - **Google Play takes the payment,** under Google's own terms and privacy policy. We never receive your name, email, card, UPI or bank details.
 - **What Google sends us about a purchase:** which pack it was, its order number, when it was made, whether it's paid, still pending or cancelled, whether it was a tester's purchase, and later whether it was refunded.
 - **Tied to your Gems:** each purchase carries a code made one way from your anonymous Firebase sign-in ID, so a pack adds Gems only to your own wallet; the purchase's token from Google is kept only as a one-way code of it.
-- **Where it's checked:** a small service of ours on **Cloudflare's network**, the same as B2's relay, checks each purchase with Google and records it in our Firebase project. It keeps nothing itself; like any internet service, Cloudflare handles your device's network address to deliver the request, and its own privacy policy covers its network.
+- **Where it's checked:** a small service of ours on **Cloudflare's network**, the same as Vaultie Trades' relay, checks each purchase with Google and records it in our Firebase project. It keeps nothing itself; like any internet service, Cloudflare handles your device's network address to deliver the request, and its own privacy policy covers its network.
 - **What we keep:** in our Firebase project (Firestore), each pack you bought (its pack, Gems, order number and time) and each refund, beside your Gems' history, so the Gems you paid for are added once, a question about a purchase can be answered, and a refund takes back those Gems and what was bought with them. Kept as long as the game is offered, as your Gems' history is.
 - **Signing in:** buying needs a sign-in to Google Play Games, so the Gems you buy stay with your Play Games account on a new phone. We never receive your Play Games name, picture or email.
 - **Spending cap:** in Settings › Your data you can set a monthly cap; it's counted from your own purchases this month and kept on your phone.
@@ -137,6 +137,6 @@ We don't sell or share personal information. The game logs and analytics stay in
 If we change this policy, we'll update the effective date above. Significant changes, such as adding analytics, will also be noted in the app's release notes.
 
 ## Contact
-Questions about privacy: RishabhBuilds@gmail.com (Rishabh Agrawal, the developer of B2 Business).
+Questions about privacy: RishabhBuilds@gmail.com (Rishabh Agrawal, the developer of Vaultie Trades).
 
-© 2010–2026 Rishabh Agrawal. B2 Business is an original card game by Rishabh Agrawal, played as physical cards since 2010, with its first manual in 2012. This app is its digital edition.
+© 2010–2026 Rishabh Agrawal. Vaultie Trades is the digital edition of B2 Business, an original card game by Rishabh Agrawal, played as physical cards since 2010, with its first manual in 2012.
