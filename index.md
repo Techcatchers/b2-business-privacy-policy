@@ -5,7 +5,7 @@ title: B2 Business privacy policy
 
 # B2 Business: Privacy Policy
 
-**Effective date:** 7 November 2026
+**Effective date:** 8 November 2026
 
 B2 Business ("the game", "we") is a trading card game for players aged **13 and over**. You can play it on one device, with friends on the same Wi-Fi network, or with friends online. This policy explains what information the game uses and where it goes.
 
@@ -124,6 +124,7 @@ The Android app sends us information about how the game is played, so we can fix
 - **Google Play takes the payment,** under Google's own terms and privacy policy. We never receive your name, email, card, UPI or bank details.
 - **What Google sends us about a purchase:** which pack it was, its order number, when it was made, whether it's paid, still pending or cancelled, whether it was a tester's purchase, and later whether it was refunded.
 - **Tied to your Gems:** each purchase carries a code made one way from your anonymous Firebase sign-in ID, so a pack adds Gems only to your own wallet; the purchase's token from Google is kept only as a one-way code of it.
+- **Where it's checked:** a small service of ours on **Cloudflare's network**, the same as B2's relay, checks each purchase with Google and records it in our Firebase project. It keeps nothing itself; like any internet service, Cloudflare handles your device's network address to deliver the request, and its own privacy policy covers its network.
 - **What we keep:** in our Firebase project (Firestore), each pack you bought (its pack, Gems, order number and time) and each refund, beside your Gems' history, so the Gems you paid for are added once, a question about a purchase can be answered, and a refund takes back those Gems and what was bought with them. Kept as long as the game is offered, as your Gems' history is.
 - **Signing in:** buying needs a sign-in to Google Play Games, so the Gems you buy stay with your Play Games account on a new phone. We never receive your Play Games name, picture or email.
 - **Spending cap:** in Settings › Your data you can set a monthly cap; it's counted from your own purchases this month and kept on your phone.
