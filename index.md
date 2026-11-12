@@ -5,7 +5,7 @@ title: Vaultie Trades privacy policy
 
 # Vaultie Trades: Privacy Policy
 
-**Effective date:** 8 November 2026
+**Effective date:** 12 November 2026
 
 Vaultie Trades ("the game", "we") is a trading card game for players aged **13 and over**. You can play it on one device, with friends on the same Wi-Fi network, or with friends online. This policy explains what information the game uses and where it goes.
 
@@ -47,7 +47,7 @@ If you sign in to Google Play Games in the Android app, the app keeps **one save
 ## Playing with friends on your Wi-Fi
 - When you **host** a game, your phone runs a small game server on your local network. Other players join from the app or by scanning a QR code in their web browser.
 - The devices exchange only what the game needs:
-  - nicknames and avatar choices, and the frame, name stamp, podium celebration and Business Card you equipped in the Store;
+  - nicknames and avatar choices, and the frame, name stamp and its landing, podium celebration and step, Business Card, pod plate and card sleeve you equipped in the Store, with the colours you picked for them;
   - your Business Card's game highlights, such as games played, wins and trophies, which the others at your table can see, with your best net worth, the highest you have finished a game with. Other players' phones show these during the game and don't keep them;
   - a random player ID your phone makes for itself, not linked to you or any account, which other phones at your table keep only to count how many different friends their player has played with;
   - the moves you make;
