@@ -5,7 +5,7 @@ title: Vaultie Trades privacy policy
 
 # Vaultie Trades: Privacy Policy
 
-**Effective date:** 12 November 2026
+**Effective date:** 14 November 2026
 
 Vaultie Trades ("the game", "we") is a trading card game for players aged **13 and over**. You can play it on one device, with friends on the same Wi-Fi network, or with friends online. This policy explains what information the game uses and where it goes.
 
@@ -31,7 +31,7 @@ Vaultie Trades ("the game", "we") is a trading card game for players aged **13 a
 
 This information isn't sent to us or to any third party, except the game logs and analytics described below, which carry no nickname, and your Play Games save, which goes to your own Google account if you sign in to Play Games.
 
-**Backups.** In Settings → Your data you can make a backup: your nickname, avatar, trophies, your wallet (B2 Gems, the kits you own and your loadouts), your History and settings, as text you copy or share, to restore on a new install. It never holds the join codes or keys of games you joined, your hosts' addresses, or other players' names: History goes into it with other people's names left out. Anyone who has your backup can restore it, so keep it somewhere private. Restoring replaces what's on that device.
+**Backups.** Your progress is backed up only through Google Play Games, if you sign in to it (see "Saves in Google Play Games" below). Versions before 2.16.3 could also make a backup as text to copy or share; the app no longer makes or restores one. A backup never holds the join codes or keys of games you joined, your hosts' addresses, or other players' names: History goes into it with other people's names left out.
 
 **Game reports.** You can copy a game report, or share it as a text file through your phone's share sheet (a download in a browser), to send to whoever looks into a problem. It holds that game's moves and settings, the app's recent technical log and how smoothly the game drew. If you joined someone else's table, it holds only what your own seat saw. It never holds your network address, the join code or your seat's private key. The game never sends a report by itself: it goes only where you send it.
 
