@@ -5,7 +5,7 @@ title: Vaultie Trades privacy policy
 
 # Vaultie Trades: Privacy Policy
 
-**Effective date:** 14 November 2026
+**Effective date:** 15 November 2026
 
 Vaultie Trades ("the game", "we") is a trading card game for players aged **13 and over**. You can play it on one device, with friends on the same Wi-Fi network, or with friends online. This policy explains what information the game uses and where it goes.
 
@@ -76,7 +76,7 @@ If you sign in to Google Play Games in the Android app, the app keeps **one save
 ## Permissions the Android app uses
 | Permission | Why |
 |---|---|
-| Network access (Internet) | Needed to host or join games on your local Wi-Fi, for online tables through Vaultie Trades' relay, and to send the game logs and analytics (see "Game logs and analytics"). Not used for anything else. |
+| Network access (Internet) | Needed to host or join games on your local Wi-Fi, for online tables through Vaultie Trades' relay, to download a game theme's music (see "Theme music"), and to send the game logs and analytics (see "Game logs and analytics"). Not used for anything else. |
 | Wi-Fi multicast | To find games hosted on your network |
 | Network state | To notice when your Wi-Fi drops or changes, so the game can reconnect |
 | Keep the device awake | To keep a hosted game running while you play, also with the screen off |
@@ -119,6 +119,10 @@ The Android app sends us information about how the game is played, so we can fix
 - **How long:** game records for up to 24 months, crash reports for 90 days (Crashlytics' own limit), and Analytics' detailed data for 14 months, then deleted; your Gems' history for as long as the game is offered, so a later question can still be checked.
 - **Not for sale:** never sold, never shared with anyone else, never used for advertising.
 - If a game can't be sent (no internet), the phone keeps it and sends it later. Because none of this carries a name or account, we can't tell which records are yours; ask us at the address below if you have questions.
+
+## Theme music
+- Some game themes have music of their own. It isn't inside the app: when you equip such a theme, or try one on in the Store to hear a sample, your phone downloads the music from a small service of ours on **Cloudflare's network**, the same as Vaultie Trades' relay, and keeps it on your phone.
+- **The download carries nothing about you:** it asks only for the music file. The service keeps nothing; like any internet service, Cloudflare handles your device's network address to deliver the file, and its own privacy policy covers its network.
 
 ## Buying B2 Gems
 - **Google Play takes the payment,** under Google's own terms and privacy policy. We never receive your name, email, card, UPI or bank details.
