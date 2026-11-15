@@ -5,7 +5,7 @@ title: Vaultie Trades privacy policy
 
 # Vaultie Trades: Privacy Policy
 
-**Effective date:** 15 November 2026
+**Effective date:** 16 November 2026
 
 Vaultie Trades ("the game", "we") is a trading card game for players aged **13 and over**. You can play it on one device, with friends on the same Wi-Fi network, or with friends online. This policy explains what information the game uses and where it goes.
 
@@ -16,6 +16,7 @@ Vaultie Trades ("the game", "we") is a trading card game for players aged **13 a
 - **Notifications** ("News from Vaultie Trades"): only if you allow them, news, new versions and an occasional nudge if you haven't played for a while, sent by the developer, never daily. Turn them off any time in Settings (see "Notifications").
 - Multiplayer games run **directly between devices on your own Wi-Fi network**, or, at an **online table**, through Vaultie Trades' relay on Cloudflare, which passes the game's messages between the players' phones and **keeps none of them**. Neither way stores your games' messages; a paused table's results are kept for its players (see "Tables that run out"); the game records we keep are the ones "Game logs and analytics" describes.
 - **Game logs and analytics:** game records, crashes, app usage and the history of your B2 Gems go to our **Google Firebase** project (Firestore, Crashlytics, Google Analytics), with nicknames replaced by seat numbers and no account, email or advertising identifier (see "Game logs and analytics").
+- **Invite friends (optional):** if you're signed in to Play Games you get a random invite code and link to share; when a friend comes by it and finishes a first game, we record which code they came by and the Gems each of you earned, never a name (see "Invite friends").
 - **Reporting a problem (optional):** if you report a problem or an idea from the app, the words you write go to us with the app's version, your phone's model and Android version and, if you leave it on, the game's ID; nothing goes until you press Send (see "Reporting a problem").
 
 ## What the game stores on your device
@@ -76,7 +77,7 @@ If you sign in to Google Play Games in the Android app, the app keeps **one save
 ## Permissions the Android app uses
 | Permission | Why |
 |---|---|
-| Network access (Internet) | Needed to host or join games on your local Wi-Fi, for online tables through Vaultie Trades' relay, to download a game theme's music (see "Theme music"), and to send the game logs and analytics (see "Game logs and analytics"). Not used for anything else. |
+| Network access (Internet) | Needed to host or join games on your local Wi-Fi, for online tables through Vaultie Trades' relay, to download a game theme's music (see "Theme music"), for invites (see "Invite friends"), and to send the game logs and analytics (see "Game logs and analytics"). Not used for anything else. |
 | Wi-Fi multicast | To find games hosted on your network |
 | Network state | To notice when your Wi-Fi drops or changes, so the game can reconnect |
 | Keep the device awake | To keep a hosted game running while you play, also with the screen off |
@@ -123,6 +124,12 @@ The Android app sends us information about how the game is played, so we can fix
 ## Theme music
 - Some game themes have music of their own. It isn't inside the app: when you equip such a theme, or try one on in the Store to hear a sample, your phone downloads the music from a small service of ours on **Cloudflare's network**, the same as Vaultie Trades' relay, and keeps it on your phone.
 - **The download carries nothing about you:** it asks only for the music file. The service keeps nothing; like any internet service, Cloudflare handles your device's network address to deliver the file, and its own privacy policy covers its network.
+
+## Invite friends
+- **Your code and link:** if you're signed in to Google Play Games, the app asks a small service of ours on **Cloudflare's network** (the same that checks bought Gems) for your invite code, such as VT-4K7P. It's random, made from nothing about you, and kept with your sign-in ID in our Firebase project. Your link carries it; you share it yourself, through your phone's share sheet, and we never send it anywhere.
+- **A friend who comes by it:** when your friend opens your link or types your code (only before they finish their first game, and only if they're signed in to Play Games), the service records which code they came by. If they install the game from your link's store page, Google Play hands the app your code at its first launch (Play's install referrer), so they don't type it.
+- **Their first game:** when they finish a game, the service checks that game's record (see "Game logs and analytics") under their sign-in ID, then records the Gems each of you earned: 25 for you, up to 10 friends, and 10 for them. Your record names your friend only by a one-way code, never their name or sign-in ID, and nobody sees another player's name through invites. Your phone adds the Gems as you collect them, in "Your B2 Gems' history".
+- **Kept** as long as the game is offered, as the Gems history is. Ask us at the address below to delete them.
 
 ## Buying B2 Gems
 - **Google Play takes the payment,** under Google's own terms and privacy policy. We never receive your name, email, card, UPI or bank details.
